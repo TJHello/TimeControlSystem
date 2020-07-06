@@ -19,3 +19,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class com.tjhello.tcs.info.*{*;}
+
+-keep class com.tjhello.tcs.TCSystem{public * ;}
+
+-keep class com.tjhello.tcs.TCSystem$*Listener{*;}
+
+-keep class com.tjhello.tcs.OKHttpUtil{*;}
+
+-flattenpackagehierarchy com.tjhello.tcs.inner

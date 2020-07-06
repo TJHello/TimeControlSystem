@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tjhello.tcs">
 
-    /
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="false" />
+
 </manifest>
